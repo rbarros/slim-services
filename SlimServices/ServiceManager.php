@@ -25,12 +25,16 @@ class ServiceManager extends IlluminateContainer
 		});
 
 		$this['path'] = $app->config('path');
+		$this['path.lang'] = $app->config('path.lang');
+		if ($app->db) {
+			$this['db'] = $app->db->getDatabaseManager();
+		}
 
 		$service_manager = $this;
 		$app->hook('slim.before', function() use($service_manager)
 		{
 			$service_manager->boot();
-		}, 1);		
+		}, 1);
 	}
 
 	/**
