@@ -1,8 +1,9 @@
 {
-    "name": "itsgoingd/slim-services",
+    "name": "rbarros/slim-services",
     "description": "Service manager for Slim compatible with Laravel packages",
     "keywords": ["microframework", "slim"],
     "homepage": "http://github.com/itsgoingd/slim-services",
+    "version": "1.0.1",
     "license": "MIT",
     "authors": [
         {
