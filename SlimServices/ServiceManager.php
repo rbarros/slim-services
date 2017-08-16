@@ -26,6 +26,7 @@ class ServiceManager extends IlluminateContainer
 
 		$this['path'] = $app->config('path');
 		$this['path.lang'] = $app->config('path.lang');
+		$this['db'] = null;
 		if ($app->db) {
 			$this['db'] = $app->db->getDatabaseManager();
 		}
