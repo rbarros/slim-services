@@ -1,5 +1,5 @@
 {
-    "name": "lidere/slim-services",
+    "name": "ramon_barros/slim-services",
     "description": "Service manager for Slim compatible with Laravel packages",
     "keywords": ["microframework", "slim"],
     "homepage": "http://github.com/itsgoingd/slim-services",
